@@ -236,16 +236,17 @@ body {
 	clear: both;
 	overflow: hidden;
 	margin: 40px 0;
-	border: 1px solid lightgray;
+	padding: 20px 0;
+	border-top: 1px solid lightgray;
+	border-bottom: 1px solid lightgray;
 
-	&__paragraph {
+	&__text {
 		float: left;
 		width: 45%;
 		text-align: right;
-		margin: 50px 0 0 80px;
+		margin: 0 0 0 80px;
 		line-height: 20px;	
 	}
-
 	&__image {
 		float: right;
 		width: 45%;
@@ -255,12 +256,67 @@ body {
 		color: #9e914c;
 		text-decoration: none;
 	}
+
+	&__title {
+		font-size: 20px;
+		margin: 30px 10px 40px 0
+	}
+	&__span {
+		border-top: 1px solid #9e914c;
+	}
+
+}
+
+.sideArticle--biggest {
+	background-color: #444343;
+	width: 320px;
+	height: 670px;
+	float: left;
+	margin: 0 0 0 5%;
+	padding: 0 20px;
+	color: #bebebe;
+	text-align: center;
+
+	&__image {
+		width: 300px;
+		height: 250px;
+	}
+
+	&__paragraph {
+		margin: 20px 0;
+	}
+	&__line1 {
+		float: right;
+		margin-top: -30px;
+	}
+	&__Smallparagraph {
+		margin : 10px 0;
+		text-align: right;
+		width: 200px;
+	}
+
+	&__smallArticle {
+		
+		height: 130px;
+		img {
+			float: right;
+
+		}
+		p {
+			float: left;
+			width: 50%;
+			text-align: right;
+		}
+
+	}
 }
 
 #grayBoxSecond__articleBig {
 	margin-left: 0;
 	margin-bottom: 50px;
 }
+
+
 
 
 span {
