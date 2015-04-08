@@ -4,6 +4,7 @@ html {
 body {
   width: 80%;
   margin: 0 auto;
+  color: #444343;
 }
 .header__picture--top {
   width: 100%;
@@ -63,7 +64,7 @@ body {
   float: right;
 }
 .article--small__span {
-  border-top: 1px solid gold;
+  border-top: 1px solid #9e914c;
   margin: 0 2em 0 0;
 }
 .article--small__image {
@@ -98,7 +99,7 @@ body {
 }
 .article--big__button {
   color: white;
-  background-color: gold;
+  background-color: #9e914c;
   padding: 5px 10px;
   float: right;
   margin: 15px 0 30px 0;
@@ -129,7 +130,8 @@ body {
   margin-top: 20px;
 }
 #article--side--gray {
-  background-color: gray;
+  background-color: #444343;
+  color: #bebebe;
 }
 #article--side--white {
   border: 1px solid black;
@@ -140,7 +142,8 @@ body {
   margin: 100px 0 0 5%;
   height: 450px;
   text-align: center;
-  background-color: gray;
+  background-color: #444343;
+  color: #bebebe;
 }
 .thirdArticle--side__image {
   width: 250px;
@@ -154,7 +157,8 @@ body {
   clear: both;
   overflow: hidden;
   width: 100%;
-  background-color: gray;
+  background-color: #444343;
+  color: #bebebe;
 }
 .grayBoxFirst--left {
   width: 45%;
@@ -182,7 +186,8 @@ body {
   clear: both;
   overflow: hidden;
   width: 100%;
-  background-color: gray;
+  background-color: #444343;
+  color: #bebebe;
   margin-bottom: 40px;
 }
 .grayBoxSecond__span {
@@ -198,21 +203,28 @@ body {
   clear: both;
   overflow: hidden;
   margin: 40px 0;
+  border: 1px solid lightgray;
 }
 .article--biggest__paragraph {
   float: left;
   width: 45%;
   text-align: right;
+  margin: 50px 0 0 80px;
+  line-height: 20px;
 }
 .article--biggest__image {
   float: right;
   width: 45%;
+}
+.article--biggest__link {
+  color: #9e914c;
+  text-decoration: none;
 }
 #grayBoxSecond__articleBig {
   margin-left: 0;
   margin-bottom: 50px;
 }
 span {
-  font-size: 0.7em;
-  color: gold;
+  font-size: 18px;
+  color: #9e914c;
 }
