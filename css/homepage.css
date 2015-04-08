@@ -116,7 +116,6 @@ body {
 .article--side {
   width: 270px;
   float: left;
-  background-color: gray;
   margin: 50px 0 0 5%;
   height: 320px;
   text-align: center;
@@ -128,6 +127,28 @@ body {
 }
 .article--side__paragraph {
   margin-top: 20px;
+}
+#article--side--gray {
+  background-color: gray;
+}
+#article--side--white {
+  border: 1px solid black;
+}
+.thirdArticle--side {
+  width: 290px;
+  float: left;
+  margin: 100px 0 0 5%;
+  height: 450px;
+  text-align: center;
+  background-color: gray;
+}
+.thirdArticle--side__image {
+  width: 250px;
+  margin: 15px 0 15px;
+}
+.thirdArticle--side__paragraph {
+  margin: 20px 0 30px 0;
+  font-size: 20px;
 }
 .grayBoxFirst {
   clear: both;
