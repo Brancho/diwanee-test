@@ -52,8 +52,10 @@ body {
 }
 
 .main__ad--top {
-	margin-left: 4%;
+	margin-left: 5%;
 	float: left;
+	width: 230px;
+	height: 450px;
 }
 
 .article--small {
@@ -62,7 +64,7 @@ body {
 	height: 200px;
 	display: flex;
 	justify-content: right;
-	margin:0 4% 30px 50px;
+	margin:0 5% 30px 50px;
 	text-align: left;
 	float: right;
 
@@ -88,17 +90,17 @@ body {
 	
 	float: right;
 	font-size: 20px;
-	margin: 50px 4% 0 0;
-	width: 50%;
+	margin: 50px 5% 0 0;
+	width: 40%;
 
 	&__image {
 	width: 100%;
-	height: 350px;
+	height: 280px;
 }
 	&__span {
 	float: right;
 	font-size: 20px;
-	margin: 30px 0 0 0;
+	margin: 10px 0 0 0;
 }
 	&__line {
 		margin-left: 14px;
@@ -108,11 +110,11 @@ body {
 	background-color: gold;
 	padding: 5px 10px;
 	float: right;
-	margin: 15px 0 50px 0;
+	margin: 15px 0 30px 0;
 }	
 	&__text {
 		width: 85%;
-		margin: 80px 0 0 0;
+		margin: 40px 0 0 0;
 		text-align: right;
 	}
 }
@@ -125,38 +127,54 @@ body {
 
 }
 
+.article--side {
+	width: 270px;
+	float: left;
+	background-color: gray;
+	margin: 50px 0 0 5%;
+	height: 320px;
+	text-align: center;
+	padding: 10px;
+
+	&__image {
+		width: 250px;
+		margin: 20px 0 15px;
+	}
+
+	&__paragraph {
+		margin-top: 20px;
+	}
+}
+
 .grayBoxFirst {
 	clear: both;
 	overflow: hidden;
 	width: 100%;
 	background-color: gray;
-
+	
 	&--left {
 		width: 45%;
-		padding: 50px 0 0 10px;
+		padding: 50px 0 0 0;
 		float: left;
 	}
-
 	&__vid {
 		width: 45%;
-		margin-right: 20px;
+		margin-left: 23px;
 		float: right;
 
-		&__pic {
+	&__pic {
 			width: 100%;
 		}
 
-		&__paragraph {
+	&__paragraph {
 			font-size: 12px;
 			margin: 20px 0 20px 0;
 			text-align: right;
-
 		}
 
-		&__span {
+	&__span {
 			float: right;
 			font-size: 10px;
-
 		}
 	}
 }

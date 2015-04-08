@@ -47,8 +47,10 @@ body {
   position: absolute;
 }
 .main__ad--top {
-  margin-left: 4%;
+  margin-left: 5%;
   float: left;
+  width: 230px;
+  height: 450px;
 }
 .article--small {
   font-size: 20px;
@@ -56,7 +58,7 @@ body {
   height: 200px;
   display: flex;
   justify-content: right;
-  margin: 0 4% 30px 50px;
+  margin: 0 5% 30px 50px;
   text-align: left;
   float: right;
 }
@@ -79,17 +81,17 @@ body {
 .article--big {
   float: right;
   font-size: 20px;
-  margin: 50px 4% 0 0;
-  width: 50%;
+  margin: 50px 5% 0 0;
+  width: 40%;
 }
 .article--big__image {
   width: 100%;
-  height: 350px;
+  height: 280px;
 }
 .article--big__span {
   float: right;
   font-size: 20px;
-  margin: 30px 0 0 0;
+  margin: 10px 0 0 0;
 }
 .article--big__line {
   margin-left: 14px;
@@ -99,17 +101,33 @@ body {
   background-color: gold;
   padding: 5px 10px;
   float: right;
-  margin: 15px 0 50px 0;
+  margin: 15px 0 30px 0;
 }
 .article--big__text {
   width: 85%;
-  margin: 80px 0 0 0;
+  margin: 40px 0 0 0;
   text-align: right;
 }
 .main__image--big {
   width: 100%;
   border-top: 40px solid black;
   border-bottom: 40px solid black;
+}
+.article--side {
+  width: 270px;
+  float: left;
+  background-color: gray;
+  margin: 50px 0 0 5%;
+  height: 320px;
+  text-align: center;
+  padding: 10px;
+}
+.article--side__image {
+  width: 250px;
+  margin: 20px 0 15px;
+}
+.article--side__paragraph {
+  margin-top: 20px;
 }
 .grayBoxFirst {
   clear: both;
@@ -119,12 +137,12 @@ body {
 }
 .grayBoxFirst--left {
   width: 45%;
-  padding: 50px 0 0 10px;
+  padding: 50px 0 0 0;
   float: left;
 }
 .grayBoxFirst__vid {
   width: 45%;
-  margin-right: 20px;
+  margin-left: 23px;
   float: right;
 }
 .grayBoxFirst__vid__pic {
