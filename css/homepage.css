@@ -54,7 +54,7 @@ body {
 }
 .article--small {
   font-size: 20px;
-  max-width: 50%;
+  width: 50%;
   height: 200px;
   display: flex;
   justify-content: right;
@@ -177,6 +177,40 @@ body {
 .grayBoxFirst__vid__span {
   float: right;
   font-size: 10px;
+}
+.grayBoxSecond {
+  clear: both;
+  overflow: hidden;
+  width: 100%;
+  background-color: gray;
+  margin-bottom: 40px;
+}
+.grayBoxSecond__span {
+  float: left;
+  margin: 30px 0 20px 70px;
+}
+#grayBoxSecond__articleSmall {
+  float: left;
+  margin: 50px 0 0 0;
+  width: 50%;
+}
+.article--biggest {
+  clear: both;
+  overflow: hidden;
+  margin: 40px 0;
+}
+.article--biggest__paragraph {
+  float: left;
+  width: 45%;
+  text-align: right;
+}
+.article--biggest__image {
+  float: right;
+  width: 45%;
+}
+#grayBoxSecond__articleBig {
+  margin-left: 0;
+  margin-bottom: 50px;
 }
 span {
   font-size: 0.7em;
