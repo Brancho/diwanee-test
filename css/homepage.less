@@ -311,10 +311,32 @@ body {
 	}
 }
 
+
+.lastSideArticle{
+	width: 210px;
+	height: 450px;
+	background-color: #e9e9e9;
+	float: left;
+	margin: 0 0 0 5%;
+	padding: 20px;
+	text-align: center;
+
+	&__paragraph {
+		text-align: right;
+		padding: 10px;
+		border-bottom: 1px solid lightgray;
+	}
+	&__title {
+		font-size: 25px;
+	}
+
+}
+
 #grayBoxSecond__articleBig {
 	margin-left: 0;
 	margin-bottom: 50px;
 }
+
 
 
 
@@ -324,5 +346,86 @@ span {
 		color: #9e914c;
 	}
 
+.footer__grayBox {
+	clear: both;
+	overflow: hidden;
+	width: 100%;
+	height: 200px;
+	background-color: #444343;
+	text-align: center;
+	color: #bebebe;
+	margin-bottom: 50px;
+
+	&__title{
+		margin-top: 20px;
+		font-size: 25px;
+	}
+	&__paragraph {
+		text-align: center;
+		margin-top: 20px;
+	}
+	&--mail {
+		background-color: white;
+		width: 400px;
+		height: 35px;
+		padding: 5px;
+		margin: 30px auto;
+		&--span {
+			float: left;
+			padding: 8px 20px;
+			background-color: #9e914c;
+			color: white;
+		}
+		&--pic {
+			float: right;
+		}
+	}
+
+}
+
+.footer__title {
+	text-align: center;
+	font-size: 25px;
+}
+.rightFooter {
+	width: 50%;
+	float: right;
+	margin: 40px 0 100px 0;
+	border:1px solid black;
+	&__title {
+		text-align: center;
+		margin: 15px 0 50px 0;
+		font-size: 20px;
+	}
+	&__ImgContainer {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+
+		&__image {
+		width: 150px;
+		height: 140px;
+		text-align: center;
+		margin:0 15px 20px 15px;
+	}
+	}
+
+	&__links {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: flex-end;
+		a {
+			margin: 20px 10px 15px 10px;
+			text-decoration: none;
+			color: black;
+			white-space: nowrap;
+		}
+
+	
+
+	}
+	
+}
 
 
