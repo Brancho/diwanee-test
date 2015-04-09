@@ -507,18 +507,66 @@ span {
 
 
 
-	@media only screen and (max-device-width: 1920px) {
+	@media screen and (max-width: 1920px) {
 	.article--big__image {
 		height: 350px;
 	}		
 	}
 
-	@media only screen and (max-device-width: 980px) {
+	@media screen and (max-width: 1200px) {
 
 	body, span, .article--small, .article--big, .thirdArticle--side, header {
 		font-size: 12px !important ;
 	}
 
+	.sideArticle--biggest {
+		width: 260px;
+		height: 580px;
+		&__image {
+			width: 250px;
+			height: 200px;
+		}
+	}
+		.article--biggest {
+			&__image {
+				width: 40%;
+				margin-top: 50px;
+			}
+		}
+	.thirdArticle--side {
+		width: 200px;
+		height: 330px;
+		&__image {
+			width: 170px;
+		}
+	}
+
+		.sideArticle--biggest {
+		width: 170px;
+		height: 430px;
+		&__image {
+			width: 170px;
+			height: 150px;
+		}
+		&__smallArticle {
+			height: 80px;
+			img {
+				height: 70px;
+				width: 80px;
+			}
+		}
+	}
+	#sideArticle--biggest__lines {
+		display: none;
+	}
+
+		.article--side {
+		width: 200px;
+		height: 250px;
+		&__image {
+		width: 180px;
+		}
+	}
 	.header__pictureText {
 		height: 50px;
 
@@ -547,20 +595,7 @@ span {
 			margin-left: 100px;
 		}
 
-	.sideArticle--biggest {
-		width: 260px;
-		height: 580px;
-		&__image {
-			width: 250px;
-			height: 200px;
-		}
-	}
-		.article--biggest {
-			&__image {
-				width: 40%;
-				margin-top: 50px;
-			}
-		}
+	
 		.grayBoxFirst--left {
 			width: 90%;
 		}
@@ -570,7 +605,7 @@ span {
 		}
 	}
 
-	@media only screen and (max-device-width: 800px) {
+	@media screen and (max-width: 800px) {
 		.header__pictureText {
 		font-size: 12px;
 		height: 35px;
@@ -583,44 +618,13 @@ span {
 		margin-right: 5%;
 		margin-left: 30px;
 	}
-	.article--side {
-		width: 200px;
-		height: 250px;
-		&__image {
-		width: 180px;
-		}
-	}
+
 
 	.article--big {
 			margin-left: 80px;
 		}
 
-	.thirdArticle--side {
-		width: 200px;
-		height: 330px;
-		&__image {
-			width: 170px;
-		}
-	}
 
-		.sideArticle--biggest {
-		width: 170px;
-		height: 430px;
-		&__image {
-			width: 170px;
-			height: 150px;
-		}
-		&__smallArticle {
-			height: 80px;
-			img {
-				height: 70px;
-				width: 80px;
-			}
-		}
-	}
-	#sideArticle--biggest__lines {
-		display: none;
-	}
 
 	.article--biggest {
 		&__text {
@@ -679,7 +683,7 @@ span {
 
 
 
-@media only screen and (max-device-width: 480px) {
+@media screen and (max-width: 480px) {
 
 	}
 

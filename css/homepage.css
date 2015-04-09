@@ -426,12 +426,12 @@ span {
 .footer--bottom__imgLeft {
   float: left;
 }
-@media only screen and (max-device-width: 1920px) {
+@media screen and (max-width: 1920px) {
   .article--big__image {
     height: 350px;
   }
 }
-@media only screen and (max-device-width: 980px) {
+@media screen and (max-width: 1200px) {
   body,
   span,
   .article--small,
@@ -439,6 +439,50 @@ span {
   .thirdArticle--side,
   header {
     font-size: 12px !important ;
+  }
+  .sideArticle--biggest {
+    width: 260px;
+    height: 580px;
+  }
+  .sideArticle--biggest__image {
+    width: 250px;
+    height: 200px;
+  }
+  .article--biggest__image {
+    width: 40%;
+    margin-top: 50px;
+  }
+  .thirdArticle--side {
+    width: 200px;
+    height: 330px;
+  }
+  .thirdArticle--side__image {
+    width: 170px;
+  }
+  .sideArticle--biggest {
+    width: 170px;
+    height: 430px;
+  }
+  .sideArticle--biggest__image {
+    width: 170px;
+    height: 150px;
+  }
+  .sideArticle--biggest__smallArticle {
+    height: 80px;
+  }
+  .sideArticle--biggest__smallArticle img {
+    height: 70px;
+    width: 80px;
+  }
+  #sideArticle--biggest__lines {
+    display: none;
+  }
+  .article--side {
+    width: 200px;
+    height: 250px;
+  }
+  .article--side__image {
+    width: 180px;
   }
   .header__pictureText {
     height: 50px;
@@ -465,18 +509,6 @@ span {
   .article--big {
     margin-left: 100px;
   }
-  .sideArticle--biggest {
-    width: 260px;
-    height: 580px;
-  }
-  .sideArticle--biggest__image {
-    width: 250px;
-    height: 200px;
-  }
-  .article--biggest__image {
-    width: 40%;
-    margin-top: 50px;
-  }
   .grayBoxFirst--left {
     width: 90%;
   }
@@ -485,7 +517,7 @@ span {
     width: 70%;
   }
 }
-@media only screen and (max-device-width: 800px) {
+@media screen and (max-width: 800px) {
   .header__pictureText {
     font-size: 12px;
     height: 35px;
@@ -498,40 +530,8 @@ span {
     margin-right: 5%;
     margin-left: 30px;
   }
-  .article--side {
-    width: 200px;
-    height: 250px;
-  }
-  .article--side__image {
-    width: 180px;
-  }
   .article--big {
     margin-left: 80px;
-  }
-  .thirdArticle--side {
-    width: 200px;
-    height: 330px;
-  }
-  .thirdArticle--side__image {
-    width: 170px;
-  }
-  .sideArticle--biggest {
-    width: 170px;
-    height: 430px;
-  }
-  .sideArticle--biggest__image {
-    width: 170px;
-    height: 150px;
-  }
-  .sideArticle--biggest__smallArticle {
-    height: 80px;
-  }
-  .sideArticle--biggest__smallArticle img {
-    height: 70px;
-    width: 80px;
-  }
-  #sideArticle--biggest__lines {
-    display: none;
   }
   .article--biggest__text {
     line-height: 15px;
