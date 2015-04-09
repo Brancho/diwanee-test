@@ -388,10 +388,10 @@ span {
 	font-size: 25px;
 }
 .rightFooter {
-	width: 50%;
+	width: 47%;
 	float: right;
-	margin: 40px 0 100px 0;
-	border:1px solid black;
+	margin: 40px 0 50px 0;
+	
 	&__title {
 		text-align: center;
 		margin: 15px 0 50px 0;
@@ -406,7 +406,7 @@ span {
 		width: 150px;
 		height: 140px;
 		text-align: center;
-		margin:0 15px 20px 15px;
+		margin:0 10px 20px 10px;
 	}
 	}
 
@@ -421,11 +421,73 @@ span {
 			color: black;
 			white-space: nowrap;
 		}
-
-	
-
 	}
-	
 }
+
+
+.leftFooter {
+	width: 47%;
+	float: left;
+	margin: 40px 0 50px 0;
+	
+	&__title {
+		text-align: center;
+		margin: 15px 0 50px 0;
+		font-size: 20px;
+	}
+	&__ImgContainer {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+
+		&__image {
+		width: 150px;
+		height: 140px;
+		text-align: center;
+		margin:0 10px 20px 10px;
+	}
+	}
+
+	&__links {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: flex-end;
+		a {
+			margin: 20px 10px 15px 10px;
+			text-decoration: none;
+			color: black;
+			white-space: nowrap;
+		}
+	}
+}
+
+.footer--bottom {
+	clear: both;
+	margin-bottom: 50px;
+	text-align: center;
+
+&__span {
+	padding: 7px 10px;
+	border:1px solid #9e914c;
+	font-size: 15px;
+	color: black;
+	margin:0 10px 0 0;
+}
+&__paragraph {
+	margin-top: 50px;
+	width: 400px;
+	margin-left: 32%;
+}
+&__imgRight {
+	
+	float: right;
+}
+&__imgLeft {
+	float: left;
+	margin:70px 0;
+}
+}
+
 
 
