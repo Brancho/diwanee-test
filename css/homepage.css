@@ -37,7 +37,7 @@ body {
 }
 .header__pictureText {
   width: 25%;
-  height: 3.5em;
+  height: 70px;
   left: 38%;
   background-color: white;
   padding: 1em 0.2em 0.5em 0.2em;
@@ -252,7 +252,7 @@ body {
   margin-top: -30px;
 }
 .sideArticle--biggest__Smallparagraph {
-  margin: 10px 0;
+  margin: 10px 0 10px -20px;
   text-align: right;
   width: 200px;
 }
@@ -440,6 +440,9 @@ span {
   header {
     font-size: 12px !important ;
   }
+  .header__pictureText {
+    height: 50px;
+  }
   .article--big__image {
     height: 250px;
   }
@@ -478,6 +481,87 @@ span {
     width: 90%;
   }
   #grayBoxFirst--right__bigArticle {
-    margin-right: 240px;
+    margin-right: 15%;
+    width: 70%;
+  }
+}
+@media only screen and (max-device-width: 800px) {
+  .header__pictureText {
+    font-size: 12px;
+    height: 35px;
+  }
+  .main__ad--top {
+    width: 170px;
+    height: 350px;
+  }
+  .article--small {
+    margin-right: 5%;
+    margin-left: 30px;
+  }
+  .article--side {
+    width: 200px;
+    height: 250px;
+  }
+  .article--side__image {
+    width: 180px;
+  }
+  .article--big {
+    margin-left: 80px;
+  }
+  .thirdArticle--side {
+    width: 200px;
+    height: 330px;
+  }
+  .thirdArticle--side__image {
+    width: 170px;
+  }
+  .sideArticle--biggest {
+    width: 170px;
+    height: 430px;
+  }
+  .sideArticle--biggest__image {
+    width: 170px;
+    height: 150px;
+  }
+  .sideArticle--biggest__smallArticle {
+    height: 80px;
+  }
+  .sideArticle--biggest__smallArticle img {
+    height: 70px;
+    width: 80px;
+  }
+  #sideArticle--biggest__lines {
+    display: none;
+  }
+  .article--biggest__text {
+    line-height: 15px;
+  }
+  .lastSideArticle {
+    width: 150px;
+    height: 370px;
+    font-size: 10px;
+  }
+  .lastSideArticle__title {
+    font-size: 20px;
+  }
+  .footer__grayBox__title {
+    font-size: 18px;
+  }
+  .footer__grayBox--mail {
+    width: 300px;
+    height: 35px;
+  }
+  .footer__grayBox--mail--span {
+    margin: 5px 0;
+  }
+  .footer__title {
+    font-size: 18px;
+  }
+  #footer--bottom__pics {
+    width: 160px;
+    height: 25px;
+  }
+  .grayBoxSecond__span {
+    display: none;
   }
 }
