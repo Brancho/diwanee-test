@@ -762,4 +762,28 @@ span {
   .sideArticle--biggest {
     margin-left: 10% ;
   }
+  .leftFooter__pic {
+    width: 100px;
+    height: 60px;
+  }
+  .leftFooter__ImgContainer__image {
+    width: 100px;
+    height: 80px;
+    margin: 5px 5px;
+  }
+  .leftFooter__ImgContainer {
+    justify-content: center;
+  }
+  .rightFooter__pic {
+    width: 100px;
+    height: 60px;
+  }
+  .rightFooter__ImgContainer__image {
+    width: 100px;
+    height: 80px;
+    margin: 5px 5px;
+  }
+  .rightFooter__ImgContainer {
+    justify-content: center;
+  }
 }
