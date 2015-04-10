@@ -13,6 +13,7 @@
 	<div class="header">
 		<img src="slike/Layer 90.jpg" class="header__picture--top">
 		<div class="header__title">
+		<img src="slike/Logo (SVG Available).jpg" id="title">
 			<div class="mobile__menu">
 				<img src="slike/Vector Smart Object.png" class="mobile__menu--item" id="lupa">
 				<img src="slike/1px line.png" class="header__titlePic--side">
@@ -23,7 +24,8 @@
 
 			
 		</div>
-			<div class="mobileMenu--dropdown">
+			<div id="mobileMenu--dropdown--invisible">
+			 
 				<div class="mobileMenu--dropdown__1">
 					<span class="mobileMenu--bottom__item">سيلهي محتوى</span>
 					<span class="mobileMenu--bottom__item">سيلهي محتوى</span>
@@ -44,11 +46,13 @@
 					<span class="mobileMenu--bottom__item">سيلهي محتوى</span>
 					<span class="mobileMenu--bottom__item">سيلهي محتوى</span>
 				</div>
+			
 			</div>
 			<div class="mobileMenu--bottom">
 				<span class="mobileMenu--bottom__item">سيلهي محتوى</span>
 				<span class="mobileMenu--bottom__item">سيلهي محتوى</span>
-			</div>
+				</div>
+			
 		<nav class="header__nav">
 			<a href="" class="header__link">المقروء</a><img src="slike/Layer 2.png" class="header__linkPic">
 			<a href="" class="header__link">المقروء</a><img src="slike/Layer 2.png" class="header__linkPic">
@@ -467,5 +471,12 @@
 	</div>
 	</footer>
 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
+<script type="text/javascript">
+	$('#lines').on('click', function(){
+		$('div#mobileMenu--dropdown--invisible').toggleClass('visible')
+	});
+</script>
 </body>
 </html>
