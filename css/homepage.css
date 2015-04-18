@@ -544,6 +544,8 @@ span {
 .footer--bottom__imgLeft {
   float: left;
   margin: 0 0 200px 5% ;
+  width: 160px;
+  height: 25px;
 }
 #footer--bottom__spanFirst {
   color: #9e914c;
