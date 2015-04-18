@@ -721,7 +721,7 @@ body {
 
 			.article--side {
 		width: 180px;
-		height: 250px;
+		height: 300px;
 		&__image {
 		width: 180px;
 		}
@@ -738,7 +738,14 @@ body {
 
 			.thirdArticle--side {
 		width: 200px;
-		height: 330px;
+		height: 310px;
+		p {
+		line-height: 15px;	
+		}
+		&__paragraph {
+			margin-bottom: 15px;
+		}
+		line-height: 10px;
 		&__image {
 			width: 170px;
 		}
@@ -838,6 +845,18 @@ body {
 	}
 }
 
+.article--biggest__paragraph {
+	line-height: 13px;
+}
+
+.article--biggest__title {
+	font-size: 15px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	font-family: NotoKufiArabic Bold;
+	    
+}
+
 	body, span, .article--small, .article--big, .thirdArticle--side, header {
 		font-size: 12px !important ;
 	}
@@ -883,7 +902,7 @@ body {
 }
 
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 740px) {
 
 	  .main__ad--top, .main__image--big, .article--side, .thirdArticle--side, .grayBoxFirst--left, #grayBoxSecond__articleSmall, .article--biggest, #footer--bottom__pics, .footer--bottom__paragraph {
 			display: none;

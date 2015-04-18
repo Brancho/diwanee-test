@@ -591,7 +591,7 @@ span {
 @media screen and (max-width: 1100px) {
   .article--side {
     width: 180px;
-    height: 250px;
+    height: 300px;
   }
   .article--side__image {
     width: 180px;
@@ -606,7 +606,14 @@ span {
   }
   .thirdArticle--side {
     width: 200px;
-    height: 330px;
+    height: 310px;
+    line-height: 10px;
+  }
+  .thirdArticle--side p {
+    line-height: 15px;
+  }
+  .thirdArticle--side__paragraph {
+    margin-bottom: 15px;
   }
   .thirdArticle--side__image {
     width: 170px;
@@ -698,6 +705,15 @@ span {
     font-size: 11px;
     line-height: 13px;
   }
+  .article--biggest__paragraph {
+    line-height: 13px;
+  }
+  .article--biggest__title {
+    font-size: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-family: NotoKufiArabic Bold;
+  }
   body,
   span,
   .article--small,
@@ -746,7 +762,7 @@ span {
     height: 40px;
   }
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 740px) {
   .main__ad--top,
   .main__image--big,
   .article--side,
