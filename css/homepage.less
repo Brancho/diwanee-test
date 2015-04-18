@@ -234,22 +234,26 @@
 
 .thirdArticle--side {
 	font-family: NotoKufiArabic-Bold;
-	width: 290px;
+	width: 323px;
 	float: left;
 	clear: left;
 	margin: 50px 0 0 5%;
-	height: 450px;
+	height: 460px;
 	text-align: center;
 	background-color: #444343;
 	color: #bebebe;
 		&__image {
-			width: 250px;
+			width: 300px;
+			height: 260px;
 			margin: 15px 0 15px;
 		}
 		&__paragraph {
-			margin: 20px 0 30px 0;
-			line-height: 30px;
-			
+			margin: 20px 0 20px 0;
+			line-height: 25px;
+		}
+		&__span {
+			border-bottom:1px solid #9E914C;
+			padding-bottom: 2px;
 		}
 }
 
@@ -353,15 +357,18 @@
 	padding: 20px 0;
 	border-top: 1px solid lightgray;
 	border-bottom: 1px solid lightgray;
-	
+	color: #444343;
 
 	&__text {
 		float: left;
-		width: 45%;
+		width: 50%;
 		text-align: right;
-		margin: 0 0 0 80px;
-		line-height: 20px;	
+		margin: 10px 0 0 80px;
+		line-height: 23px;	
 		font-family: NotoNaskhArabic-Regular;
+	}
+	&__paragraph {
+		line-height: 20px;
 	}
 	&__image {
 		float: right;
@@ -374,8 +381,9 @@
 	}
 
 	&__title {
-		font-size: 20px;
-		margin: 30px 10px 40px 0
+		font-size: 25px;
+		margin: 30px 10px 40px 0;
+		font-family: NotoKufiArabic-Bold;
 	}
 	&__span {
 		border-top: 1px solid #9e914c;
@@ -385,8 +393,8 @@
 
 .sideArticle--biggest {
 	background-color: #444343;
-	width: 320px;
-	height: 630px;
+	width: 300px;
+	height: 685px;
 	float: left;
 	margin: 0 0 0 5%;
 	padding: 0 20px;
@@ -404,10 +412,10 @@
 	}
 	&__line1 {
 		float: right;
-		margin-top: -30px;
+		margin-top: -50px;
 	}
 	&__Smallparagraph {
-		margin: 10px 0 10px -20px;
+		margin: 10px -20px 30px 20px;
 		text-align: right;
 		width: 200px;
 	}
@@ -415,6 +423,7 @@
 	&__smallArticle {
 		
 		height: 130px;
+		margin-left: 20px;
 		img {
 			float: right;
 
@@ -430,13 +439,14 @@
 
 
 .lastSideArticle{
-	width: 210px;
-	height: 450px;
+	width: 250px;
+	height: 430px;
 	background-color: #e9e9e9;
 	float: left;
 	margin: 0 0 0 5%;
 	padding: 20px;
 	text-align: center;
+	color: #444343;
 
 	&__paragraph {
 		text-align: right;
@@ -465,10 +475,10 @@ span {
 	clear: both;
 	overflow: hidden;
 	width: 100%;
-	height: 200px;
+	height: 220px;
 	background-color: #444343;
 	text-align: center;
-	color: #bebebe;
+	color: white;
 	margin-bottom: 50px;
 
 	&__title{
@@ -477,12 +487,13 @@ span {
 		font-family: NotoKufiArabic-Bold;
 	}
 	&__paragraph {
-		text-align: center;
+		margin: 0 auto;
 		margin-top: 20px;
+		width: 500px;
 	}
 	&--mail {
 		background-color: white;
-		width: 400px;
+		width: 600px;
 		height: 35px;
 		padding: 5px;
 		margin: 30px auto;
@@ -519,7 +530,7 @@ span {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
-		justify-content: space-around;
+		justify-content: center;
 
 		&__image {
 		width: 140px;
@@ -534,6 +545,7 @@ span {
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: flex-end;
+		margin-right: 45px;
 		a {
 			margin: 20px 10px 15px 10px;
 			text-decoration: none;
@@ -559,7 +571,7 @@ span {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
-		justify-content: space-around;
+		justify-content: center;
 
 		&__image {
 		width: 140px;
@@ -574,6 +586,7 @@ span {
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: flex-end;
+		margin-right: 45px;
 		a {
 			margin: 20px 10px 15px 10px;
 			text-decoration: none;
@@ -595,6 +608,7 @@ span {
 	flex-wrap: wrap;
 	margin-bottom: 30px;
 	justify-content: center;
+	align-items: baseline;
 	
 
 }
@@ -609,16 +623,27 @@ span {
 }
 &__paragraph {
 	text-align: center;
+	margin-bottom: 40px;
 	
 }
 &__imgRight {
 	float: right;
+	margin: 0 5% 200px 0;
 }
 &__imgLeft {
 	float: left;
+	margin: 0 0 200px 5% ;
 	
 }
 }
+
+#footer--bottom__spanFirst {
+	color: #9e914c;
+	margin-right: 10px;
+}
+#footer--bottom__spanLast {
+	color: black;
+} 
 
 .rightFooter__ImgContainer__image, .leftFooter__ImgContainer__image {
 		margin-bottom: 40px;
@@ -685,14 +710,6 @@ span {
 		}
 
 	
-		.sideArticle--biggest {
-		width: 260px;
-		height: 610px;
-		&__image {
-			width: 250px;
-			height: 200px;
-		}
-	}
 		.article--biggest {
 			&__image {
 				width: 40%;
@@ -702,23 +719,6 @@ span {
 		}
 		}
 	
-
-	.footer__grayBox {
-		&__title {
-		font-size: 18px;
-		}
-		&--mail {
-			width: 300px;
-			height: 35px;
-			&--span {
-				margin: 2px 0;
-			}
-		}
-	}
-
-	.footer__title {
-		font-size: 18px;
-	}
 
 	#footer--bottom__pics {
 		width: 160px;
