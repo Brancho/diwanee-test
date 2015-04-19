@@ -25,29 +25,9 @@
   margin-bottom: 5em;
   width: 100%;
 }
-.header__title {
-  margin-top: 1em;
-  display: flex;
-  flex-wrap: nowrap;
-}
-.header__titlePic--side {
-  padding: 2em 0 0 0.2em;
-  flex-grow: 1;
-  flex-shrink: 1;
-  width: 100%;
-  height: 1px;
-}
 .header__titlePic--center {
-  flex-grow: 2;
-  width: 196px;
-  height: 34px;
-}
-.header__titlePics {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: baseline;
-  width: 100%;
+  margin-left: 45%;
+  margin-top: 15px;
 }
 .header__linkPic {
   padding: 0 0.5em 0 0.5em;
@@ -281,7 +261,6 @@
   color: #bebebe;
   margin-bottom: 40px;
   padding: 0 30px;
-  width: 100%;
 }
 .grayBoxSecond__span {
   float: left;
@@ -303,6 +282,7 @@
   clear: left;
   margin: 50px 0 25px 0;
   width: 400px;
+  height: 150px;
 }
 .article--biggest {
   clear: both;
@@ -955,7 +935,8 @@ span {
     margin-top: 20px;
   }
   #grayBoxFirst--right__bigArticle,
-  #grayBoxSecond__articleBig {
+  #grayBoxSecond__articleBig,
+  .article--big {
     margin-bottom: 20px;
   }
   .grayBoxSecond {
@@ -995,13 +976,18 @@ span {
     display: inherit;
     clear: both;
   }
+  #mobileLogo {
+    margin-left: 10%;
+    margin-bottom: -40px;
+  }
 }
 @media screen and (max-width: 650px) {
   .article--big,
   #grayBoxFirst--right__bigArticle,
   #grayBoxSecond__articleBig,
   .grayBoxSecond h1,
-  .grayBoxFirst h1 {
+  .grayBoxFirst h1,
+  .grayBox__mobileOnly h1 {
     margin-right: 20%;
     margin-left: 20%;
   }
@@ -1104,7 +1090,6 @@ span {
     height: 200px;
   }
   .header__picture--top,
-  .header__titlePic--side,
   .header__nav {
     display: none;
   }
@@ -1112,9 +1097,7 @@ span {
     display: inherit;
   }
   .header__titlePic--center {
-    height: 35px;
-    width: 200px;
-    padding: 7px 15px;
+    padding: 7px 40px;
   }
   .header__pictureText {
     margin-top: -60px;
@@ -1186,8 +1169,20 @@ span {
   #title {
     display: none;
   }
+  #mobileLogo {
+    width: 130px;
+    margin-left: 25%;
+    margin-right: 10px;
+  }
+  .grayBox__mobileOnly h1 {
+    font-size: 15px;
+    margin-top: 14px;
+  }
 }
 @media screen and (max-width: 400px) {
+  #mobileLogo {
+    margin-left: 14%;
+  }
   .footer--bottom__imgLeft {
     margin: 0 25% 30px 25%;
   }
@@ -1196,7 +1191,6 @@ span {
   }
   .grayBox__mobileOnly h1 {
     font-size: 16px;
-    margin-right: 20%;
   }
   .grayBoxSecond h1,
   .grayBoxFirst h1 {
@@ -1208,11 +1202,6 @@ span {
   }
   .footer__grayBox--mail {
     width: 250px;
-  }
-  .header__titlePic--center {
-    height: 20px;
-    width: 120px;
-    padding: 7px 15px;
   }
   .mobileMeny__pic {
     height: 200px;
@@ -1249,6 +1238,9 @@ span {
   }
 }
 @media screen and (max-width: 350px) {
+  #mobileLogo {
+    margin-left: 6%;
+  }
   .article--big,
   #grayBoxFirst--right__bigArticle,
   #grayBoxSecond__articleBig {
@@ -1256,5 +1248,13 @@ span {
   }
   .lastSideArticle {
     margin-left: 11%;
+  }
+  .header__pictureText {
+    padding: 10px;
+    height: 33px;
+  }
+  .header__titlePic--center {
+    width: 140px;
+    height: 30px;
   }
 }
