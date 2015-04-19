@@ -20,14 +20,17 @@
 }
 .header__picture--top {
   width: 100%;
+  margin-bottom: 15px;
 }
 .header__picture--bottom {
   margin-bottom: 5em;
   width: 100%;
 }
 .header__titlePic--center {
-  margin-left: 45%;
-  margin-top: 15px;
+  width: 196px;
+  height: 34px;
+  display: block;
+  margin: 0 auto;
 }
 .header__linkPic {
   padding: 0 0.5em 0 0.5em;
@@ -238,7 +241,7 @@
   width: 100%;
   background-color: #121212;
   padding: 20px 0;
-  height: 430px;
+  height: 450px;
   color: #bebebe;
   margin-bottom: 20px;
   clear: both;
@@ -249,6 +252,9 @@
   font-family: NotoKufiArabic-Bold;
   color: white;
   margin: 20px 10% -20px 0;
+}
+#mobileOnly__bigArticle {
+  height: 320px;
 }
 #grayBoxSecond__articleBig p {
   color: white;
@@ -278,11 +284,10 @@
 }
 #grayBoxSecond__articleSmall {
   color: white;
-  float: left !important;
+  float: left ;
   clear: left;
   margin: 50px 0 25px 0;
   width: 400px;
-  height: 150px;
 }
 .article--biggest {
   clear: both;
@@ -828,7 +833,7 @@ span {
     float: right;
   }
   .grayBoxSecond {
-    padding: 5%;
+    padding: 5% 0 5% 5%;
     height: 330px;
   }
   .grayBoxSecond__span {
@@ -907,7 +912,21 @@ span {
     margin-left: 8%;
   }
 }
+@media screen and (max-width: 780px) {
+  .grayBoxSecond {
+    height: 700px;
+  }
+  #grayBoxSecond__articleSmall {
+    float: right;
+    clear: right;
+    margin-right: 10%;
+  }
+}
 @media screen and (max-width: 740px) {
+  .grayBoxSecond {
+    height: 450px;
+    padding-top: 0;
+  }
   .main__ad--top,
   .main__image--big,
   .article--side,
@@ -938,10 +957,6 @@ span {
   #grayBoxSecond__articleBig,
   .article--big {
     margin-bottom: 20px;
-  }
-  .grayBoxSecond {
-    padding: 0 ;
-    height: 480px;
   }
   .grayBoxSecond h1 {
     margin-top: 30px;
@@ -977,11 +992,14 @@ span {
     clear: both;
   }
   #mobileLogo {
-    margin-left: 10%;
+    margin-left: 30%;
     margin-bottom: -40px;
   }
 }
 @media screen and (max-width: 650px) {
+  #mobileLogo {
+    margin-left: 20%;
+  }
   .article--big,
   #grayBoxFirst--right__bigArticle,
   #grayBoxSecond__articleBig,
@@ -1051,13 +1069,18 @@ span {
   }
 }
 @media screen and (max-width: 480px) {
+  #mobileOnly__bigArticle {
+    height: 160px;
+  }
+  .grayBox__mobileOnly {
+    height: 400px;
+  }
   #grayBoxFirst--right__bigArticle {
     margin-bottom: 80px;
   }
   #grayBoxSecond__articleBig {
     margin-bottom: 90px;
   }
-  .grayBox__mobileOnly,
   .grayBoxSecond,
   .grayBoxFirst {
     height: 420px;
@@ -1070,9 +1093,6 @@ span {
   .header__pictureText p {
     font-size: 10px;
     line-height: 10px;
-  }
-  .grayBoxSecond {
-    padding-right: 35px;
   }
   .article--big {
     margin-bottom: 130px;
@@ -1095,9 +1115,6 @@ span {
   }
   .mobile__menu--bottom {
     display: inherit;
-  }
-  .header__titlePic--center {
-    padding: 7px 40px;
   }
   .header__pictureText {
     margin-top: -60px;
@@ -1252,9 +1269,5 @@ span {
   .header__pictureText {
     padding: 10px;
     height: 33px;
-  }
-  .header__titlePic--center {
-    width: 140px;
-    height: 30px;
   }
 }
